@@ -1,11 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.jfoenix.controls.JFXButton?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="clinic.controller.AdminDashBoardController">
+<AnchorPane prefHeight="359.0" prefWidth="383.0" style="-fx-background-color: #e1d8e8;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="clinic.controller.AdminDashBoardController">
    <children>
-      <Label layoutX="122.0" layoutY="67.0" text="Admin Dash Board" />
+      <Label layoutX="117.0" layoutY="35.0" text="ADMIN DASHBOARD">
+         <font>
+            <Font name="Cantarell Extra Bold" size="25.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="74.0" fitWidth="72.0" layoutX="33.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/MediCare.png" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="14.0" layoutY="122.0" prefHeight="58.0" prefWidth="371.0" style="-fx-background-color: #4464e3;" text="PROFILE MANAGEMENT" textFill="WHITE" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0">
+         <font>
+            <Font name="Cantarell Extra Bold" size="16.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="20.0" layoutY="191.0" prefHeight="58.0" prefWidth="371.0" style="-fx-background-color: #4464e3;" text="VIEW RECORDS" textFill="WHITE" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0">
+         <font>
+            <Font name="Cantarell Extra Bold" size="16.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="21.0" layoutY="262.0" prefHeight="58.0" prefWidth="371.0" style="-fx-background-color: #4464e3;" text="SETTINGS" textFill="WHITE" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0">
+         <font>
+            <Font name="Cantarell Extra Bold" size="16.0" />
+         </font>
+      </JFXButton>
    </children>
 </AnchorPane>
