@@ -1,5 +1,8 @@
 package clinic.controller;
 
+import clinic.security.SecurityContextHolder;
+import clinic.security.User;
+import clinic.security.UserRole;
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXPasswordField;
 import com.jfoenix.controls.JFXTextField;
